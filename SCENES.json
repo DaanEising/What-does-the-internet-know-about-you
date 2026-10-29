@@ -1,0 +1,178 @@
+{
+  "project": "What Does the Internet Know About You?",
+  "durationSeconds": 120,
+  "locale": "en",
+  "sceneModelVersion": "1.0",
+  "disclaimer": "Fictional character and illustrative data traces. Research numbers apply only to specified study populations.",
+  "scenes": [
+    {
+      "id": "hook",
+      "number": 1,
+      "title": "The Hook",
+      "start": 0,
+      "end": 12,
+      "age": 3,
+      "narration": "You're three years old. You tap a video on a parent's tablet. You can't even read yet. But your digital footprint may already be beginning.",
+      "onscreen": "Your digital footprint may start before you can read.",
+      "visual": "Fade from black to a child silhouette and an unbranded tablet. A single video card appears; one faint observation node glows. Do NOT label the child as identified by an ad network.",
+      "evidence": [],
+      "observed": [
+        "Video playback (possible)"
+      ],
+      "inferred": []
+    },
+    {
+      "id": "early-video",
+      "number": 2,
+      "title": "First Videos",
+      "start": 12,
+      "end": 25,
+      "age": 3,
+      "narration": "In 2026, Dutch children aged zero to six spent an average of 102 minutes a day looking at screens. Video viewing can leave traces.",
+      "onscreen": "102 minutes/day  ·  Dutch children aged 0–6  ·  2026",
+      "visual": "Animate a 102-minute counter next to a clearly labelled population chart. The number is the GROUP average, never a statistic about our specific 3-year-old. Reveal watch/search history as possible service-local signals.",
+      "evidence": [
+        "S01",
+        "S04"
+      ],
+      "observed": [
+        "Watch activity (if recorded)",
+        "Search activity (if enabled)"
+      ],
+      "inferred": []
+    },
+    {
+      "id": "smartphone",
+      "number": 3,
+      "title": "First Smartphone",
+      "start": 25,
+      "end": 40,
+      "age": 9,
+      "narration": "At nine, our character gets a first phone. Dutch research puts the average at 9.2 years. With a personal device, online activity can become more independent.",
+      "onscreen": "9.2 years  ·  Average first phone age  ·  Netherlands",
+      "visual": "Timeline moves to age nine. Tablet shrinks; the silhouette gains a phone. Add distinct app bubbles without brand logos. Label the phone statistic as parent-reported and not universal.",
+      "evidence": [
+        "S02"
+      ],
+      "observed": [
+        "App interactions (possible)",
+        "Device activity (possible)"
+      ],
+      "inferred": []
+    },
+    {
+      "id": "first-social",
+      "number": 4,
+      "title": "First Social Account",
+      "start": 40,
+      "end": 53,
+      "age": 11,
+      "narration": "At eleven comes a first social media account. In one Flemish study, the reported average was ten years and three months. Likes and follows add clues.",
+      "onscreen": "10 years, 3 months  ·  Parent-reported first account  ·  Flanders",
+      "visual": "Animate a sample account card and likes/follows floating toward the user’s platform-local data cluster. Mark age eleven as FICTIONAL; 10y3m as the study mean for the eligible respondents.",
+      "evidence": [
+        "S03"
+      ],
+      "observed": [
+        "Likes (example)",
+        "Follows (example)"
+      ],
+      "inferred": []
+    },
+    {
+      "id": "online-identity",
+      "number": 5,
+      "title": "Online Identity",
+      "start": 53,
+      "end": 67,
+      "age": 14,
+      "narration": "By fourteen, videos, messages and shared posts can reveal interests and social connections. Not every action is public, and not every service collects the same information.",
+      "onscreen": "What you share  ≠  What a platform observes",
+      "visual": "Split screen into voluntarily shared content versus observed interactions. Use privacy lock symbols for private messages; DO NOT display private message content as always accessible to advertisers. Visual is illustrative, not proof of how a named provider processes data.",
+      "evidence": [
+        "S05"
+      ],
+      "observed": [
+        "Interactions",
+        "Shared content (when posted)"
+      ],
+      "inferred": []
+    },
+    {
+      "id": "consumer",
+      "number": 6,
+      "title": "Digital Consumer",
+      "start": 67,
+      "end": 81,
+      "age": 18,
+      "narration": "At eighteen, shopping, subscriptions and everyday apps add more kinds of data. In-game purchases often begin even earlier. But this isn't one giant profile shared by everyone.",
+      "onscreen": "More services. More types of data. Not one universal database.",
+      "visual": "Draw SEPARATE translucent containers for video, social, and shopping platforms with no default cross-platform arrows. Mention earlier game purchases as a caption; do not imply age 18 marks the first online purchase.",
+      "evidence": [
+        "S06"
+      ],
+      "observed": [
+        "Shopping activity (example)",
+        "Subscriptions (example)"
+      ],
+      "inferred": []
+    },
+    {
+      "id": "inference",
+      "number": 7,
+      "title": "From Data to Prediction",
+      "start": 81,
+      "end": 99,
+      "age": 18,
+      "narration": "Here's the twist: data can become predictions. If someone watches running videos and searches for training tips, a platform might infer they're interested in running. That's a guess, not a fact.",
+      "onscreen": "Observed signals → Possible inference: Interested in running",
+      "visual": "Zoom into ONE hypothetical service. Three observed running-related actions converge toward a purple predicted-interest chip. Purple inference must be labelled “possible” and must not count as a proven personal fact.",
+      "evidence": [
+        "S05",
+        "S07"
+      ],
+      "observed": [
+        "Running videos (fictional)",
+        "Training searches (fictional)"
+      ],
+      "inferred": [
+        "Possible interest: Running (illustrative)"
+      ]
+    },
+    {
+      "id": "feedback-loop",
+      "number": 8,
+      "title": "The Feedback Loop",
+      "start": 99,
+      "end": 110,
+      "age": 18,
+      "narration": "That guess can influence recommendations. You watch, click, or scroll. Your response gives the system more signals. The loop keeps going.",
+      "onscreen": "Predict → Recommend → Interact → Learn",
+      "visual": "Show one loop: purple predicted interest → amber recommendation → cyan interaction → return to model. Never portray an algorithm as always perfectly predicting or manipulating actions.",
+      "evidence": [
+        "S04",
+        "S05"
+      ],
+      "observed": [
+        "Click / skip (illustrative)"
+      ],
+      "inferred": [
+        "Recommendation signal (illustrative)"
+      ]
+    },
+    {
+      "id": "ending",
+      "number": 9,
+      "title": "The Open Ending",
+      "start": 110,
+      "end": 120,
+      "age": 18,
+      "narration": "So as these systems learn from your choices, how much might they shape what you choose next?",
+      "onscreen": "How much might they shape your next choice?",
+      "visual": "Fade the previous elements. Pause on the fictional profile silhouette and the open question. End with small “Research sources & methods” cue. Avoid dystopian certainty.",
+      "evidence": [],
+      "observed": [],
+      "inferred": []
+    }
+  ]
+}
